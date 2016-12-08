@@ -5,3 +5,6 @@ php-u2flib-server-*.tar.gz
 php-u2flib-server-*.tar.gz.sig
 apidocs/
 build/
+*.iml
+/.idea
+u2f-pdo.sqlite
