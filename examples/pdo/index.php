@@ -35,7 +35,7 @@
 
 require_once('../../src/u2flib_server/U2F.php');
 
-$dbfile = '/var/tmp/u2f-pdo.sqlite';
+$dbfile = 'u2f-pdo.sqlite';
 
 $pdo = new PDO("sqlite:$dbfile");
 $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
